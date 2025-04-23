@@ -1,0 +1,28 @@
+{
+  "name": "test-fastify-archi",
+  "version": "1.0.0",
+  "description": "A repo to test an archi with Fastify",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisGuiraudet/test-fastify-archi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisGuiraudet/test-fastify-archi/issues"
+  },
+  "homepage": "https://github.com/DenisGuiraudet/test-fastify-archi#readme",
+  "dependencies": {
+    "fastify": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
