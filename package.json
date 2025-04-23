@@ -4,8 +4,9 @@
   "description": "A repo to test an archi with Fastify",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node index.js"
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js",
+    "start": "node build/index.js" 
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/DenisGuiraudet/test-fastify-archi#readme",
   "dependencies": {
-    "fastify": "^5.3.2"
+    "fastify": "^5.3.2",
+    "nodemon": "^3.1.10"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
